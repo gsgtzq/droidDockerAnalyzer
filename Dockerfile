@@ -45,6 +45,7 @@ ENV PATH $PATH:${ANDROID_SDK_HOME}/platform-tools:${ANDROID_SDK_HOME}/build-tool
 # android end
 # apktool start
 ENV ANDROID_APKTOOL_VERSION 2.2.5-3883e9-SNAPSHOT
+ENV ANDROID_TOOLS /opt/android-tools
 ENV ANDROID_APKTOOL_PATH /opt/android-tools/apktool.jar
 COPY apktool.jar $ANDROID_APKTOOL_PATH
 # apktool end
