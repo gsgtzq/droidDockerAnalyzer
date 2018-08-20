@@ -1,4 +1,4 @@
-FROM python:2.7.13-stretch
+FROM python:2.7.15-stretch
 ENV LANG=en_US.UTF-8
 # java8 start
 RUN { \
@@ -10,8 +10,8 @@ RUN { \
 	&& chmod +x /usr/local/bin/docker-java-home
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-ENV JAVA_VERSION 8u141
-ENV JAVA_DEBIAN_VERSION 8u141-b15-1~deb9u1
+ENV JAVA_VERSION 8u181
+ENV JAVA_DEBIAN_VERSION 8u181-b13-1~deb9u1
 ENV CA_CERTIFICATES_JAVA_VERSION 20170531+nmu1
 
 RUN set -x \

@@ -9,8 +9,8 @@
 |          应用名称           |         应用版本          |
 | :---------------------: | :-------------------: |
 |         system          |    debian-stretch     |
-|         python          |        2.7.13         |
-|          java           |         8u141         |
+|         python          |        2.7.15         |
+|          java           |         8u181         |
 |  android-sdk-platform   |          26           |
 | android-sdk-build-tools |        26.0.1         |
 |         apktool         | 2.2.5-3883e9-SNAPSHOT |
