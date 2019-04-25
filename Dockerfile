@@ -10,9 +10,9 @@ RUN { \
 	&& chmod +x /usr/local/bin/docker-java-home
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-ENV JAVA_VERSION 8u181
-ENV JAVA_DEBIAN_VERSION 8u181-b13-2~deb9u1
-ENV CA_CERTIFICATES_JAVA_VERSION 20170531+nmu1
+ENV JAVA_VERSION 8u212
+ENV JAVA_DEBIAN_VERSION 8u212-b01-1~deb9u1
+ENV CA_CERTIFICATES_JAVA_VERSION 20170929~deb9u1
 
 RUN set -x \
 	&& apt-get update \
