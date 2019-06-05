@@ -1,4 +1,4 @@
-FROM python:2.7.15-stretch
+FROM python:3.6-stretch
 ENV LANG=en_US.UTF-8
 # java8 start
 RUN { \
@@ -11,7 +11,7 @@ RUN { \
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV JAVA_VERSION 8u212
-ENV JAVA_DEBIAN_VERSION 8u212-b01-1~deb9u1
+ENV JAVA_DEBIAN_VERSION 8u212-b03-2~deb9u1
 ENV CA_CERTIFICATES_JAVA_VERSION 20170929~deb9u3
 
 RUN set -x \
