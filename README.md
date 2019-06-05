@@ -9,7 +9,7 @@
 |          应用名称           |         应用版本          |
 | :---------------------: | :-------------------: |
 |         system          |    debian-stretch     |
-|         python          |        2.7.15         |
+|         python          |         3.6.x         |
 |          java           |         8u212         |
 |  android-sdk-platform   |          26           |
 | android-sdk-build-tools |        26.0.1         |
