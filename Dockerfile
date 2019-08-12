@@ -10,8 +10,8 @@ RUN { \
 	&& chmod +x /usr/local/bin/docker-java-home
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-ENV JAVA_VERSION 8u212
-ENV JAVA_DEBIAN_VERSION 8u212-b03-2~deb9u1
+ENV JAVA_VERSION 8u222
+ENV JAVA_DEBIAN_VERSION 8u222-b10-1~deb9u1
 ENV CA_CERTIFICATES_JAVA_VERSION 20170929~deb9u3
 
 RUN set -x \
