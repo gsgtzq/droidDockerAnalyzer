@@ -10,7 +10,7 @@
 | :---------------------: | :-------------------: |
 |         system          |    debian-stretch     |
 |         python          |         3.6.x         |
-|          java           |         8u222         |
+|          java           |         8u232         |
 |  android-sdk-platform   |          26           |
 | android-sdk-build-tools |        26.0.1         |
 |         apktool         | 2.2.5-3883e9-SNAPSHOT |
